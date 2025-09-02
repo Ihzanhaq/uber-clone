@@ -1,0 +1,100 @@
+.nav-custom{
+    background-color: black;
+}
+
+.nav-custom a{
+    color: white;
+    border-radius: 50px;
+}
+
+.nav-custom li a:hover{
+    background-color: rgba(128, 128, 128, 0.247);
+    color: white;
+}
+
+.dropdown-custom a{
+    border-radius: 0;
+}
+
+.dropdown-custom a:hover{
+    color: black;
+    font-weight: 600;
+}
+
+.logo-custom:hover{
+    border-radius: 0px;
+    color: white;
+}
+
+.logo-custom{
+    color: white;
+}
+
+section{
+  font-family: "Inter", sans-serif;
+}
+
+.left{
+    display: grid;
+    padding-top: 5rem;
+   
+}
+
+.left h1{
+    width: 80%;
+    font-size: 3rem;
+}
+
+.left form{
+    display: grid;
+    row-gap: 1.2rem;
+    width: 60%;
+}
+
+.left input{
+    padding: 10px;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date div{
+    display: grid;
+}
+
+.right{
+    padding-top: 5rem;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cards{
+    background-color: rgba(128, 128, 128, 0.182);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    width: 500px;
+}
+
+.card-container{
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}

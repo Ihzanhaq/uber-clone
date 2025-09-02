@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="assets/image.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg nav-custom">
+        <div class="container">
+          <a class="text-decoration-none fs-4 me-3 logo-custom" href="#"
+            >Uber</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Ride</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Earn
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#">Drive</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#">Deliver</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Business</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu dropdown-custom">
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >About us</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >Our Offerings</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >How Uber Works</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >Sustainability</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#">Explore</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >Newsroom</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >Investor relations</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#"
+                      >Autonomous</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-secondary" href="#">Careers</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  ><i class="fa-solid fa-globe"></i> EN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light text-dark">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6 left">
+          <h1 class="fw-bold">Go anywhere with Uber</h1>
+          <form action="">
+            <input
+              class="border rounded"
+              placeholder="Pickup Location"
+              type="form-control"
+            />
+            <input
+              class="border rounded"
+              placeholder="Dropoff Location"
+              type="form-control"
+            />
+            <div class="date">
+              <div>
+                <label for="">Date</label>
+                <input
+                  class="border rounded"
+                  placeholder="Today"
+                  type="date"
+                />
+              </div>
+              <div>
+                <label for="">Time</label>
+                <input
+                  class="border rounded"
+                  placeholder="Now"
+                  type="form-control"
+                />
+              </div>
+            </div>
+            <div class="prices">
+              <button class="btn btn-dark">See Prices</button>
+              <p>Log in to see your recent activity</p>
+            </div>
+          </form>
+        </div>
+        <div class="col-6 right">
+          <img
+          width="100%"
+          class="img-fluid"
+            src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_896,w_1344/v1712926828/assets/a3/cf8564-e2a6-418c-b9b0-65dd285c100b/original/3-2-ridesharing-new.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5 pt-5">
+        <h2>Suggestions</h2>
+        <div class="container-fluid">
+            <div class="row mt-5 card-container">
+                <div class="cards col-md-4">
+                    <div class="card-section">
+                        <div class="col-md-9">
+                            <h5>Ride</h5>
+                            <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                            <button class="btn btn-light border border-0 rounded-5">Details</button>
+                        </div>
+                        <div class="col-md-3">
+                            <img width="128px" src="https://mobile-content.uber.com/launch-experience/ride.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards col-md-4">
+                    <div class="card-section">
+                        <div class="col-md-9">
+                            <h5>Ride</h5>
+                            <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                            <button class="btn btn-light border border-0 rounded-5">Details</button>
+                        </div>
+                        <div class="col-md-3">
+                            <img width="128px" src="https://mobile-content.uber.com/launch-experience/ride.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards col-md-4">
+                    <div class="card-section">
+                        <div class="col-md-9">
+                            <h5>Ride</h5>
+                            <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                            <button class="btn btn-light border border-0 rounded-5">Details</button>
+                        </div>
+                        <div class="col-md-3">
+                            <img width="128px" src="https://mobile-content.uber.com/launch-experience/ride.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards col-md-4">
+                    <div class="card-section">
+                        <div class="col-md-9">
+                            <h5>Ride</h5>
+                            <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                            <button class="btn btn-light border border-0 rounded-5">Details</button>
+                        </div>
+                        <div class="col-md-3">
+                            <img width="128px" src="https://mobile-content.uber.com/launch-experience/ride.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>
