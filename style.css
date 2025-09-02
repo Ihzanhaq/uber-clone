@@ -83,14 +83,14 @@ section{
     display: flex;
     justify-content: space-evenly;
     border-radius: 30px;
-    width: 500px;
 }
 
 .card-container{
     column-gap: 30px;
     row-gap: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px 50px;
 }
 
 .card-section{
